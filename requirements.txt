@@ -1,17 +1,8 @@
-# my_way: 轨迹归因流水线核心依赖
-# 安装：pip install -r requirements.txt
-# 额外：python -m spacy download en_core_web_sm
-
-# 模型推理
 torch>=2.3.0
 transformers>=4.51.0
 accelerate>=0.30.0
 huggingface-hub
-
-# 数值/工具
 numpy
 tqdm
-
-# 精筛选阶段（Refinement）：三元组抽取与 KG 验证
 spacy>=3.0.0
 sentence-transformers>=2.2.0
